@@ -1,0 +1,5 @@
+/Users/yummygooey/Desktop/WordCounterSolution/WordCounter.Tests/bin/Debug/netcoreapp1.1/wordcounter.tests.deps.json
+/Users/yummygooey/Desktop/WordCounterSolution/WordCounter.Tests/bin/Debug/netcoreapp1.1/wordcounter.tests.runtimeconfig.json
+/Users/yummygooey/Desktop/WordCounterSolution/WordCounter.Tests/bin/Debug/netcoreapp1.1/wordcounter.tests.runtimeconfig.dev.json
+/Users/yummygooey/Desktop/WordCounterSolution/WordCounter.Tests/obj/Debug/netcoreapp1.1/wordcounter.tests.csproj.CoreCompileInputs.cache
+/Users/yummygooey/Desktop/WordCounterSolution/WordCounter.Tests/obj/Debug/netcoreapp1.1/wordcounter.tests.AssemblyInfo.cs
