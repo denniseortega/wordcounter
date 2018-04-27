@@ -11,8 +11,14 @@ namespace WordCounterApp.Tests
     [TestMethod]
     public void Word_ReturnsWord_String()
     {
-      RepeatCounter newWord = new RepeatCounter("hello", "hello, hello, goodbye!")
+      RepeatCounter newWord = new RepeatCounter("hello", "hello, hello, goodbye!");
       Assert.AreEqual("hello", newWord.GetWord());
+    }
+    [TestMethod]
+    public void GetWordCount_ReturnWordCount_String()
+    {
+      RepeatCounter newWordCount = new RepeatCounter("hello", "hello, hello, goodbye!");
+      Assert.AreEqual(2, RepeatCounter.GetWordCount());
     }
   }
 }
