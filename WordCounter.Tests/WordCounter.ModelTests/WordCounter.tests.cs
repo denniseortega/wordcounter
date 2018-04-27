@@ -9,9 +9,10 @@ namespace WordCounterApp.Tests
   public class WordTest
   {
     [TestMethod]
-    public void GetCountWord_ReturnsWordCount_InString()
+    public void Word_ReturnsWord_String()
     {
-      Assert.AreEqual(3, WordCounterGenerator.CountWord("hello", "hello, hello, goodbye!"));
+      RepeatCounter newWord = new RepeatCounter("hello", "hello, hello, goodbye!")
+      Assert.AreEqual("hello", newWord.GetWord());
     }
   }
 }
